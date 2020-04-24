@@ -12,11 +12,10 @@ export default class Profile extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="welcomeHeader">
-          Welcome, {this.props.first} {this.props.last}
-        </h1>
-
         <div className="profile">
+          <h1 className="welcomeHeader">
+            Welcome, {this.props.first} {this.props.last}
+          </h1>
           <ProfilePic
             first={this.props.first}
             last={this.props.last}
