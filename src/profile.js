@@ -14,7 +14,7 @@ export default class Profile extends React.Component {
       <div>
         <div className="profile">
           <h1 className="welcomeHeader">
-            Welcome, {this.props.first} {this.props.last}
+            Welcome {this.props.first} {this.props.last}
           </h1>
           <ProfilePic
             first={this.props.first}

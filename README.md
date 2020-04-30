@@ -4,8 +4,6 @@
 
 The Rabbit Hole is a social network for rabbits or people that loves rabbits.
 
-![](https://github.com/jackrandol/petition/blob/master/registerGuide.gif)
-
 ### Features
 
 Users can create an account, update their profile with an image and bio, search other users, join a group chat, see which other users are currently online, make/accept friend requests, and leave comments on a comment wall of other users profile pages. Images are uploaded with AWS S3 and in case a user forgets their password they can request a link to reset it sent to their email with AWS Simple Email Service.

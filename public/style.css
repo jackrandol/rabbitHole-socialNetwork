@@ -47,7 +47,7 @@ input {
 }
 
 .backgroundHole {
-  position: fixed;
+  position: relative;
   height: 200%;
   width: 150%;
   left: -200px;
@@ -98,10 +98,11 @@ input {
   width: 500px;
   height: 400px;
   overflow: scroll;
-  background-image: linear-gradient(fuchsia, transparent);
+  background-color: lightgray;
+  /* background-image: linear-gradient(gray, transparent); */
   margin: 20px 20px;
   padding: 15px 15px;
-  border-bottom: 1px black solid;
+  border-top: 1px black solid;
 }
 
 .welcomeHeader {
@@ -136,6 +137,7 @@ input {
   height: 90%;
   width: 150px;
   padding-left: 10px;
+  z-index: 10;
 }
 
 .animatedUserImage {
@@ -237,22 +239,26 @@ button {
 
 .profilePic {
   width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
 .textArea {
   height: 120px;
   width: 400px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 5px;
 }
 
 .bioTextArea {
   width: 400px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .allChat {
@@ -332,7 +338,7 @@ button {
   margin-right: 12px;
   margin-bottom: 12px;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   justify-content: space-between;
 }
